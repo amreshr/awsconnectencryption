@@ -8,7 +8,7 @@ In the Lambda :
 ```sh
 from decryptService import decrypt_string
 
-from logger import LogHandler
+
 
 def lambda_handler(event, context):
     print(json.dumps(event))
